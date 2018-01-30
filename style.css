@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+  margin: 20px;
+  background-color: #333;
+}
+.container {
+  max-width: 45vw;
+  margin: auto;
+  border: #fff solid 3px;
+  background: #fff;
+}
+.main-img img, 
+.imgs img{
+  width: 100%;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3px;
+}
