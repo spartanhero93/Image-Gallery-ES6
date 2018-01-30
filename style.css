@@ -4,7 +4,7 @@ body {
   background-color: #333;
 }
 .container {
-  max-width: 45vw;
+  max-width: 720px;
   margin: auto;
   border: #fff solid 3px;
   background: #fff;
@@ -18,4 +18,16 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 3px;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in forwards;
 }
